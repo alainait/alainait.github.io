@@ -1,0 +1,314 @@
+* {
+  padding: 0;
+  margin: 0;
+  outline: 0;
+}
+
+body {
+  font-family: "Lato", sans-serif;
+  font-family: "Source Sans Pro", sans-serif;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+ul li {
+  list-style: none;
+}
+
+a {
+  text-decoration: none;
+}
+
+.raisul {
+  clear: both;
+}
+
+/* nav part css code start */
+
+.navbar-collapse .navbar-nav .nav-item {
+  padding: 0 30px;
+}
+
+.navbar-collapse .navbar-nav .nav-item .nav-link {
+  color: black;
+  font-family: "Lato", sans-serif;
+  font-weight: normal;
+  font-size: 24px;
+}
+/* nav part css code end */
+
+/* banner part css code start */
+.banner-img {
+  background: url(../Images/Strict-banner.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+}
+
+.banner-oly {
+  background-color: rgba(0, 0, 0, 0.089);
+  padding: 100px 0;
+}
+
+.banner-con {
+  text-align: center;
+}
+
+.banner-con h1 {
+  color: white;
+  font-family: "Lato", sans-serif;
+  font-weight: bold;
+  font-size: 120px;
+  border-bottom: 1px solid #15a4fa;
+  display: inline-block;
+  margin-bottom: 30px;
+}
+
+.banner-con h6 {
+  color: white;
+  font-family: "Lato", sans-serif;
+  font-weight: normal;
+  font-size: 20px;
+  padding-bottom: 50px;
+}
+
+.banner-con p a {
+  color: white;
+  font-family: "Lato", sans-serif;
+  font-weight: bold;
+  font-size: 18px;
+  border: 1px solid #15a4fa;
+  padding: 10px 15px;
+  margin-bottom: 100px;
+}
+
+.banner-con a i {
+  color: white;
+  font-size: 25px;
+  padding-top: 100px;
+}
+
+/* banner part css code end */
+
+/* Simple & pure design part css code start */
+.design-con {
+  background-color: #f6f9f9;
+}
+
+.d-con-text {
+  text-align: center;
+}
+
+.d-con-text h4 {
+  color: #2d3950;
+  font-family: "Lato", sans-serif;
+  font-weight: normal;
+  font-size: 40px;
+  margin-top: 80px;
+}
+
+.d-con-text p {
+  color: #999999;
+  font-family: "Lato", sans-serif;
+  font-weight: normal;
+  font-size: 20px;
+  margin-top: 40px;
+  margin-bottom: 100px;
+}
+
+.design-ser {
+  text-align: center;
+}
+
+.design-ser img {
+  margin-bottom: 30px;
+}
+
+.design-ser h6 {
+  color: #2d3950;
+  font-family: "Lato", sans-serif;
+  font-weight: normal;
+  font-size: 22px;
+}
+
+.design-ser p {
+  color: #999999;
+  font-family: "Lato", sans-serif;
+  font-weight: normal;
+  font-size: 15px;
+}
+.design-ser-main {
+  margin: 60px 0;
+}
+/* Simple & pure design part css code end */
+
+/* Showcase your work like a pro part css code start */
+#showcase {
+  background-color: #f6f9f9;
+  padding: 80px 0;
+}
+
+.showcase-con {
+  text-align: center;
+}
+
+.showcase-con h4 {
+  color: #2d3950;
+  font-family: "Lato", sans-serif;
+  font-weight: normal;
+  font-size: 40px;
+}
+
+.showcase-con p {
+  color: #999999;
+  font-family: "Lato", sans-serif;
+  font-weight: normal;
+  font-size: 15px;
+}
+
+.showcase-img-main {
+  margin: 80px 0;
+}
+
+.showcase-img {
+  position: relative;
+  margin-top: 20px;
+}
+
+.showcase-img-oly {
+  background-color: #15a2fa8f;
+  top: 0;
+  left: 0;
+  height: 100%;
+  width: 100%;
+  display: flex;
+  position: absolute;
+  justify-content: center;
+  align-items: center;
+  transform: scale(0);
+  transition: all linear 0.3s;
+}
+
+.showcase-img-oly ul {
+}
+
+.showcase-img-oly ul li {
+  float: left;
+  border: 1px solid white;
+  padding: 12px 15px;
+  margin-left: 15px;
+  border-radius: 10%;
+}
+
+.showcase-img-oly ul li a {
+  font-size: 20px;
+  color: white;
+}
+
+.showcase-img:hover .showcase-img-oly {
+  transform: scale(1);
+  transition: all linear 0.3s;
+}
+
+/* Showcase your work like a pro part css code end */
+
+/* contact part css code start */
+#contact {
+  background: url(../Images/01-Strict-contact-bg.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+}
+
+.contact-img-oly {
+  background-color: #050a14a1;
+  padding: 70px 0;
+}
+
+.stay-with-us {
+  text-align: center;
+}
+
+.stay-with-us h6 {
+  color: white;
+  font-family: "Lato", sans-serif;
+  font-weight: normal;
+  font-size: 40px;
+}
+
+.stay-with-us p {
+  color: #999999;
+  font-family: "Lato", sans-serif;
+  font-weight: normal;
+  font-size: 15px;
+}
+
+.stay-with-us .name-mmail {
+  background: transparent;
+  height: 60px;
+  width: 515px;
+  border: none;
+  border: 1px solid #999999;
+  border-radius: 5px;
+  padding: 10px;
+  color: white;
+}
+
+.stay-with-us textarea {
+  background: transparent;
+  height: 160px;
+  width: 515px;
+  border: none;
+  border: 1px solid #999999;
+  border-radius: 5px;
+  padding: 10px;
+  color: white;
+}
+
+.sub-check {
+  color: white;
+  margin-right: 36%;
+}
+
+.con-send {
+  padding: 5px 25px;
+  background: transparent;
+  border: none;
+  border: 1px solid #15a4fa;
+  color: white;
+}
+
+/* contact part css code end */
+
+/* footer part css code start  */
+footer {
+  background-color: #f6f9f9;
+}
+
+.copy-right p {
+  color: #999999;
+  font-family: "Lato", sans-serif;
+  font-weight: normal;
+  font-size: 15px;
+  padding-top: 20px;
+}
+
+.social-icon ul {
+  float: right;
+}
+
+.social-icon ul li {
+  float: left;
+  padding-top: 20px;
+  padding-right: 10px;
+  padding-left: 10px;
+}
+
+.social-icon ul li a {
+  background-color: #15a4fa;
+  padding: 5px 8px;
+  color: white;
+}
+/* footer part css code end */
